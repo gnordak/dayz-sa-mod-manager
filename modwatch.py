@@ -469,7 +469,7 @@ steam = SteamAPI(steam_api_id)
 def send( message ):
  
     # your webhook URL
-    webhookurl = "https://discordapp.com/api/webhooks/706700934415122513/RPQtetAYhTjOTxAbFbMYa8_9uhdMMqZWOPjh09u8RUcOGPUqjlrbhJAn859P7JlOEd5H"
+    webhookurl = "https://discordapp.com/api/webhooks/YOURWEBHOOKURLHERE"
  
     # compile the form data (BOUNDARY can be anything)
     formdata = "------:::BOUNDARY:::\r\nContent-Disposition: form-data; name=\"content\"\r\n\r\n" + message + "\r\n------:::BOUNDARY:::--"
