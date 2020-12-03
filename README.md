@@ -18,3 +18,5 @@ How to use:
   - pip install datetime ( possibly bundled with python? )
 2. Edit the paths in start.bat to match your server and steamcmd location/dayz server location (ignore BE[battleeye] stuff)
 3. Add start.bat and modwatch.pi shortcuts to your startup folder
+4. go to each mods page on steam and see if there is any configuration needed  
+4. After setting up expansion mod, copy the types.xml and events.xml files into SERVERROOT/mpmissions/Expansion.ChernarusPlus/db/ 
